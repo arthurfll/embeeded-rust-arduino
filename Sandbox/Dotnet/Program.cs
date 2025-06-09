@@ -1,13 +1,11 @@
-﻿Console.WriteLine("?");
-
-string foo;
-var resposta = Console.ReadLine();
+﻿int cont = 0;
 
 
-if (resposta != null)
+
+while ( 1 == 1 )
 {
-  foo = resposta;
-} else { foo = "nuloo"; }
+  Console.WriteLine($"{cont}");
 
-Console.WriteLine($"Resposta:{foo}");
+  cont++;
+}
 
